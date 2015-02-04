@@ -7,8 +7,7 @@ Parse your json safely and stop writing `try {} catch {}`
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](https://travis-ci.org/joaquimserafim/json-parse-safe)![Code Coverage 100%](https://img.shields.io/badge/code%20coverage-100%25-green.svg?style=flat-square)[![ISC License](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](https://github.com/joaquimserafim/json-parse-safe/blob/master/LICENSE)
 
 ## Syntax
-> var JSONParse = require('json-parse-safe')
-> JSONParse(text[, reviver])
+> var JSONParse = require('json-parse-safe') <br> JSONParse(text[, reviver])
 
 ### Parameters
 ##### text
@@ -20,7 +19,7 @@ Parse your json safely and stop writing `try {} catch {}`
 ### Returns
 ##### object `{value, error}` 
 *   **value:** should be the **object** corresponding to the given JSON text or **undefined** in case of error
-*   **error:** **Error** object
+*   **error:** should be an **Error** object in case of error or **undefined** in case of success
 
 
 ## Example
