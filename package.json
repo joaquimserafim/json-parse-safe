@@ -1,6 +1,6 @@
 {
   "name": "json-parse-safe",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Parse your json safely and stop writing try {} catch {}",
   "main": "index.js",
   "scripts": {

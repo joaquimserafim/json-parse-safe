@@ -30,7 +30,7 @@ var JSONParse = require('json-parse-safe');
 var str = '{"cat": "Peter", "age": 1, "colors": ["white", "cyan", "black"]}';
 
 var obj = JSONParse(str);
-// obj.value =
+// obj.value should be
 {
     cat: 'Peter',
     age: 1,
@@ -44,7 +44,7 @@ var bad = '{"cat": "Peter" "age": 1}';
 
 var obj = JSONParse(str);
 
-// obj.value should be undefined
+// obj.value should be 'undefined'
 // obj.error should be an Error
 console.log(obj.error);
 console.log(obj.error.message);
@@ -54,6 +54,7 @@ console.log(obj.error.stack);
 ## Development
 
 ##### this projet has been set up with a precommit that forces you to follow a code style, no jshint issues and 100% of code coverage before commit
+
 
 
 to run test
