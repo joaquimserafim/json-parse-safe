@@ -53,7 +53,7 @@ console.log(obj.error.stack);
 
 ## Development
 
-##### this projet has been set up with a precommit that forces you to follow a code style, no jshint issues and 100% of code coverage before commit
+##### This project has been set up with a precommit that forces you to follow a code style, no jshint issues and 100% of code coverage before commit
 
 
 
